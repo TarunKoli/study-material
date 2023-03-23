@@ -51,6 +51,14 @@ arr1 = [...arr1, ...arr2];
 //  arr1 is now [0, 1, 2, 3, 4, 5]
 ```
 
+```js
+const books = ["Book A","Book B","Book C","Book D","Book E"];
+const [firstBook, ...otherBooks] = books;
+
+firstBook --> "Book A"
+otherBooks--> ["Book B","Book C","Book D","Book E"];
+```
+
 ## 3. Passing or copying arrays & Objects.
 
 - ### For Object literals
